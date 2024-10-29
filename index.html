@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extended Student-Teacher Tutoring System</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Extended Student-Teacher Tutoring System</h1>
+    <div class="form-container">
+      <h2>Create User</h2>
+      <form id="user-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="surname" placeholder="Surname" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <select id="role" required>
+          <option value="student">Student</option>
+          <option value="teacher">Teacher</option>
+        </select>
+        <button type="submit">Create User</button>
+      </form>
+    </div>
+    <div class="users-list">
+      <h2>Users</h2>
+      <ul id="users"></ul>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
